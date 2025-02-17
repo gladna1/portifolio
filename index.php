@@ -7,26 +7,49 @@
 
     <style>
 
+    :root{
+        font-size: 16px;
+    }
+
     *{
         margin: 0;
         padding: 0;
+        box-sizing: border-box;
     }
 
-    P{
-        border-width: 1px;
-        border-style: solid;
-        border-color: purple;
-    }
-
-    body {
+    /*body {
         background-image: url('imagens/logo.png');
         background-repeat: no-repeat;
         background-position: center;
+        background-attachment: fixed;
+        background-size: 100%;
+    }*/
+
+    P{
+        border-width: 5px;
+        border-style: solid;
+        border-color: purple;
+        font-size: 3rem;
     }
 
     H1{
         background-color: purple;
+        display: block;
     }
+
+     H1:HOVER {
+        background-color: blue;
+     }
+
+     .logo{
+        position: absolute;
+        top: 0;
+        right:0;
+     }
+
+     #interface{
+
+     }
 
     </style>
 </head>
