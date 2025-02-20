@@ -4,54 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio</title>
-
-    <style>
-
-    :root{
-        font-size: 16px;
-    }
-
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
-    /*body {
-        background-image: url('imagens/logo.png');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-attachment: fixed;
-        background-size: 100%;
-    }*/
-
-    P{
-        border-width: 5px;
-        border-style: solid;
-        border-color: purple;
-        font-size: 3rem;
-    }
-
-    H1{
-        background-color: purple;
-        display: block;
-    }
-
-     H1:HOVER {
-        background-color: blue;
-     }
-
-     .logo{
-        position: absolute;
-        top: 0;
-        right:0;
-     }
-
-     #interface{
-
-     }
-
-    </style>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
