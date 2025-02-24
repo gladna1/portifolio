@@ -1,9 +1,9 @@
-:root {
+:root{
     font-size: 12px;
-    font-family: Verdana, sans-serif;
+    font-family:Verdana, sans-serif ;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -14,7 +14,8 @@
 #interface {
     display: block;
     width: 100vw;
-    min-height: 100vw;
+    height: 100vh;
+    min-height: 100vh;
     overflow-x: hidden;
 }
 
@@ -22,5 +23,43 @@
     display: block;
     width: 100%;
     height: 100%;
-    background-image: url(../imagens/hero-bg.png);
+    background-image: url('../imagens/hero-bg.png');
+    color: #fafafa;
+}
+
+#interface .cabecalho .menu{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+
+#interface .cabecalho .menu .logo{
+    display: block;
+    width: 150px;
+}
+
+#interface .cabecalho .menu .logo img{
+    display: block;
+    width: 100%;
+}
+
+#interface .cabecalho .menu ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+#interface .cabecalho .menu ul li{
+    display: block;
+    margin: 0 1rem;
+}
+
+#interface .cabecalho .menu ul li a{
+    display: block;
+    color: #fafafa;
+    font-size: 1.5rem;
+    padding: .5rem 1rem;
+    text-decoration: none;
 }

@@ -4,33 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio</title>
+
     <link rel="stylesheet" href="css/styles.css">
+
 </head>
 
 <body>
 
-<div class="interface">
+<div id="interface">
 
     <header class="cabecalho">
 
-        <nav class="menu">
+             <nav class="menu">
 
-        <div class="logo">
+                <div class="logo">
 
-            <img src="imagens/logo.png" alt="LOGO" width="150"/>
+                    <img src="imagens/logo.png" alt="LOGO" width="150"/>
 
-        </div>
+</div>
+
         <ul>
-                <li>Home</li>
-                <li>Serviços</li>
-                <li>Produtos</li>
-                <li>Portifólio</li>
-                <li>Sobre</li>
-                <li>Contatos</li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Portifólio</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contatos</a></li>
         </ul>
-        <ol>
-        </ol>
+
         </nav>
+
         <div class="titles">
 
             <h1 class="título">Entregando serviços de qualidade</h1>
@@ -38,6 +41,7 @@
 
             <p class="paragrafo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore doloribus ducimus quam vero provident a?</p>
         </div>
+
         <div class="socialIcons">
 
             <a href="#">Twitter</a>
@@ -46,6 +50,7 @@
             <a href="#">Instagram</a>
     
         </div>
+
     </header>
 
 </div>
