@@ -34,22 +34,23 @@
 
         </nav>
 
-        <div class="titles">
+        <div class="titles"> <!--========================================-->
 
-            <h1 class="título">Entregando serviços de qualidade</h1>
-            <h1 class="subtítulo">Soluções em TI</h1>
+            <div class= "container-titles">
 
-            <p class="paragrafo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore doloribus ducimus quam vero provident a?</p>
+                <h1 class="título">Entregando Serviços de Qualidade</h1>
+                <h1 class="subtítulo">Soluções em TI</h1>
+
+                <p class="paragrafo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore doloribus ducimus quam vero provident a?</p>
         </div>
 
-        <div class="socialIcons">
-
+            <div class="socialIcons">
             <a href="#">Twitter</a>
             <a href="#">Facebook</a>
             <a href="#">Linkedin</a>
             <a href="#">Instagram</a>
     
-        </div>
+             </div><!--=================================================-->
 
     </header>
 
