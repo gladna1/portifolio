@@ -53,6 +53,7 @@
     <!--==================================== -->
 
     <main id="corpo">
+
         <section class= "servicos">
 
             <article class="servico">
@@ -83,10 +84,12 @@
             <article class="service">
                 <img src="Imagens/service-secure.svg" alt="Security">
                 <h3 class="title-servicle"> Segurança de Dados </h3>
+               
                 <p class="text-servico">Placeat nulla saepe architecto minus voluptatem autem quos pariatur fuga illo cum! Ratione, repudiandae sint.</p>
             </article>
 
          </section>
+
             <section class= "portifolio">
 
                 <h3 class= "title-portifolio"> Nosso Portifólio</h3>
@@ -114,6 +117,20 @@
                        
                     </div>
 
+            </section>
+
+            <section class="banner">
+
+                <hgroup class= "container-texto">
+
+                <h4 class= "title-banner">Saiba Mais Sobre Nossos Projetos</h4>
+
+                <p class="txt-banner">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit provident sint enim molestias, numquam illum labore! Omnis, unde perferendis! Tempora adipisci nihil obcaecati consectetur dolorem!</p>
+                
+                <button class= "btn-banner">Saiba mais</button>
+                </hgroup>
+
+        
             </section>
 
         </section class= "sobre">
