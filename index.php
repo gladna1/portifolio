@@ -127,7 +127,7 @@
 
                 <p class="txt-banner">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit provident sint enim molestias, numquam illum labore! Omnis, unde perferendis! Tempora adipisci nihil obcaecati consectetur dolorem!</p>
                 
-                <button class= "btn-banner">Saiba mais</button>
+                <a href="#" class="btn-banner">Saiba mais</a>
                 </hgroup>
 
         
@@ -137,6 +137,42 @@
 
         
         </section>
+
+        <section class= 'contato'>
+
+        <h3 class= "title-contato"> Fale Conosco</h3>
+        <p class= "subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+        <div class= "container-contato">
+
+            <aside class= 'dados-contatos'>
+                <h4 class= 'title-aside'>Endereço</h4>
+                <p class= 'text-aside'>Rua das Margaridas, S/Nº - Centro - Manhuaçu-MG</p>
+
+                <h4 class= 'title-aside'>Telefone</h4>
+                <p class= 'text-aside'>33 9 3351-3333</p>
+                <p class= 'text-asidee'> 33 9 8400-9999</p>
+
+                <h4 class= 'title-aside'>E-Mail</h4>
+                <p class= 'text-aside'>contato@meusite.com.br</p>
+                <p class= 'text-asidee'>faleconosco@meusite.com.br</p>
+            </aside>
+
+            <form action="" method="post">
+
+                <input type="text" name="nome" id="nome" placeholder="Nome*" required/>
+                <input type="email" name="email" id="email" placeholder="E-mail*" required/>
+                <input type="text" name="assunto" id="assunto" placeholder="Assunto*" required/>
+                <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
+
+                <input type="submit" value="Enviar mensagem">
+
+            </form>
+
+        </div>
+        
+        </section>
+
     </main>
 </div>
     

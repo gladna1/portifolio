@@ -285,6 +285,11 @@
    background-color: var(--azul-padrao);
    color: var(--branco-padrao);
    padding: 1rem 3rem;
-   margin: 5rem auto;
+   margin: 5rem 50rem;
    border-radius: 2rem;
+   text-decoration: none;
+}
+
+#interface #corpo .banner .container-texto .btn-banner:hover{
+   background-color: #2b5995;
 }
