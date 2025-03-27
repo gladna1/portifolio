@@ -140,6 +140,7 @@
 
         <section class="contato">
 
+            
             <h3 class="title-contato">Fale conosco</h3>
             <p class="sub-title">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
 
@@ -150,7 +151,7 @@
                     <p class="txt-aside">Rua das Margaridas, S/Nº Centro - Manhuaçu/MG</p>
 
                     <h4 class="title-aside">Telefone</h4>
-                    <p class="txt-aside">33 3331-3333</p>
+                    <p class="txt-aside">33 9 3331-3333</p>
                     <p class="txt-aside">33 9 8400-9999</p>
 
                     <h4 class="title-aside">E-Mail</h4>
@@ -185,13 +186,15 @@
 
     <footer id="rodape">
 
+        <div class="sombreamento">
+
         <div class="container-rodape">
 
-            <section class="sobre">
+            <section class="item-rodape sobre">
 
                 <img src="imagens/logo.png" alt="Logo" />
 
-                <p class="txt-sobre">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci reiciendis itaque nihil magni excepturi, assumenda in dolore iure necessitatibus deserunt nulla minima hic atque quos.</p>
+                <p class="txt-sobre">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci reiciendis itaque nihil magni excepturi, assumenda in dolore iure necessitatibus.</p>
 
                 <h4 class="title-sobre">Siga-nos</h4>
 
@@ -204,32 +207,33 @@
 
             </section>
 
-            <section class="servicos">
+            <section class="item-rodape servicos">
 
-            <h4 class="title-servicos">serviços</h4>
+            <h4 class="title-servicos">Serviços</h4>
 
             <ul>
                     <li><a href="#">Desenvolvimento WEB</a></li>
                     <li><a href="#">WEB Hosting</a></li>
                     <li><a href="#">Mídias Sociais</a></li>
-                    <li><a href="#"></a>Aplicações SEO</li>
-                    <li><a href="#"></a>Computação em nuvem</li>
-                    <li><a href="#"></a>Segurança de dados</li>
+                    <li><a href="#">Aplicações SEO</a></li>
+                    <li><a href="#">Computação em nuvem</a></li>
+                    <li><a href="#">Segurança de dados</a></li>
                 </ul>
 
 
             </section>
 
-            <section class="contato">
+            <section class="item-rodape contato">
                 <h4 class="title-contato">Contatos</h4>
 
+                <div class="container-contato">
                 <p class="text-contatos">Rua das Margaridas, S/Nº Centro - Manhuaçu/MG</p>
                 <p class="text-contatos">33 9 8400-9999</p>
                 <p class="text-contatos">contato@meusite.com.br</p>
 
                 <h4 class="title-contato">Newsletter</h4>
-             <form action="" method="GET">
-                    <input type="email" name="news-email" id="news-email" placeholder="E-mail"/>
+                <form action="" method="GET">
+                <input type="email" name="news-email" id="news-email" placeholder="E-mail"/>
 
                     <button type="submit"><i class="fab fa-telegram"></i></button>
                 </form>
@@ -239,6 +243,8 @@
         </div>
 
         <p class="txt-creditos">Gládna Vitória Lacerda &copy; 2025</p>
+
+        </div>
 
     </footer>
 
