@@ -22,15 +22,15 @@
             </div>
 
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Portifólio</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Contato</a></li>
-                <li><a href="#">Restrito</a></li>
+                <li><a href="#"><i class="fas fa-home"></i>Home</a></li>
+                <li><a href="#servicos"><i class="fas fa-tasks"></i>Serviços</a></li>
+                <li><a href="#"><i class="fas fa-photo-video"></i>Portifólio</a></li>
+                <li><a href="#"><i class="fas fa-user-friends"></i>Sobre</a></li>
+                <li><a href="#"><i class="fas fa-comments"></i>Contato</a></li>
+                <li><a href="area_restrita/js/"><i class="fas fa-unlock-alt"></i>Restrito</a></li>
             </ul>
 
-        </nav>
+        </nav> 
         
         <div class="titles"> <!-- ========================= -->
             <div class="container-titles">
@@ -140,7 +140,6 @@
 
         <section class="contato">
 
-            
             <h3 class="title-contato">Fale conosco</h3>
             <p class="sub-title">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
 
@@ -148,10 +147,10 @@
 
                 <aside class="dados-contato">
                     <h4 class="title-aside">Endereço</h4>
-                    <p class="txt-aside">Rua das Margaridas, S/Nº Centro - Manhuaçu/MG</p>
+                    <p class="txt-aside">Rua das Margaridas, S/Nº<br />Centro - Manhuaçu/MG</p>
 
                     <h4 class="title-aside">Telefone</h4>
-                    <p class="txt-aside">33 9 3331-3333</p>
+                    <p class="txt-aside">33 3331-3333</p>
                     <p class="txt-aside">33 9 8400-9999</p>
 
                     <h4 class="title-aside">E-Mail</h4>
@@ -171,7 +170,7 @@
                     </div>
 
                     <div class="line-form">
-                        <textarea name="mensagem" id="mensagem" rows="7" placeholder="Escreva sua Mensagem*" required></textarea>
+                        <textarea name="mensagem" id="mensagem" rows="7" placeholder="Escreva Sua Mensagem*" required></textarea>
                     </div>
 
                     <button type="submit">Enviar mensagem</button>
@@ -184,65 +183,68 @@
 
     </main>
 
+    <!-- ========================================================= -->
+
     <footer id="rodape">
 
         <div class="sombreamento">
 
-        <div class="container-rodape">
+            <div class="container-rodape">
 
-            <section class="item-rodape sobre">
+                <section class="item-rodape sobre">
 
-                <img src="imagens/logo.png" alt="Logo" />
+                    <img src="imagens/logo.png" alt="Logo" />
 
-                <p class="txt-sobre">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci reiciendis itaque nihil magni excepturi, assumenda in dolore iure necessitatibus.</p>
+                    <p class="txt-sobre">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci reiciendis itaque nihil magni excepturi, assumenda in dolore iure necessitatibus deserunt.</p>
 
-                <h4 class="title-sobre">Siga-nos</h4>
+                    <h4 class="title-sobre">Siga-nos</h4>
 
-                <div class="social-icons">
-                    <a href="#" title="Visite nosso Twitter"><i class="fab fa-twitter"></i></a>
-                    <a href="#" title="Visite nosso Facebook"><i class="fab fa-facebook"></i></a>
-                    <a href="#" title="Visite nosso LinkedIn"><i class="fab fa-linkedin"></i></a>
-                    <a href="#" title="Visite nosso Instagram"><i class="fab fa-instagram"></i></a>
-                </div>
+                    <div class="social-icons">
+                        <a href="#" title="Visite nosso Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" title="Visite nosso Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" title="Visite nosso LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" title="Visite nosso Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
 
-            </section>
+                </section>
 
-            <section class="item-rodape servicos">
+                <section class="item-rodape servicos">
 
-            <h4 class="title-servicos">Serviços</h4>
+                    <h4 class="title-servicos">Serviços</h4>
 
-            <ul>
-                    <li><a href="#">Desenvolvimento WEB</a></li>
-                    <li><a href="#">WEB Hosting</a></li>
-                    <li><a href="#">Mídias Sociais</a></li>
-                    <li><a href="#">Aplicações SEO</a></li>
-                    <li><a href="#">Computação em nuvem</a></li>
-                    <li><a href="#">Segurança de dados</a></li>
-                </ul>
+                    <ul>
+                        <li><a href="#">Desenvolvimento WEB</a></li>
+                        <li><a href="#">WEB Hosting</a></li>
+                        <li><a href="#">Mídias Sociais</a></li>
+                        <li><a href="#">Aplicações SEO</a></li>
+                        <li><a href="#">Computação em Nuvem</a></li>
+                        <li><a href="#">Segurança de Dados</a></li>
+                    </ul>
 
+                </section>
 
-            </section>
+                <section class="item-rodape contato">
 
-            <section class="item-rodape contato">
-                <h4 class="title-contato">Contatos</h4>
+                    <h4 class="title-contato">Contatos</h4>
 
-                <div class="container-contato">
-                <p class="text-contatos">Rua das Margaridas, S/Nº Centro - Manhuaçu/MG</p>
-                <p class="text-contatos">33 9 8400-9999</p>
-                <p class="text-contatos">contato@meusite.com.br</p>
+                    <div class="container-contato">
+                        <p class="txt-contatos">Rua das Margaridas, S/Nº</p>
+                        <p class="txt-contatos">33 9 8400-9999</p>
+                        <p class="txt-contatos">contato@meusite.com.br</p>
+                    </div>
 
-                <h4 class="title-contato">Newsletter</h4>
-                <form action="" method="GET">
-                <input type="email" name="news-email" id="news-email" placeholder="E-mail"/>
+                    <h4 class="title-contato">Newsletter</h4>
+                    <form action="" method="GET">
+                        <input type="email" name="news-email" id="news-email" placeholder="E-Mail" />
 
-                    <button type="submit"><i class="fab fa-telegram"></i></button>
-                </form>
+                        <button type="submit"><i class="fab fa-telegram"></i></button>
+                    </form>
 
-            </section>
+                </section>
 
-        </div>
+            </div>
 
-        <p class="txt-creditos">Gládna Vitória Lacerda &copy; 2025</p>
+            <p class="txt-creditos">Gládna Vitória Lacerda &copy; 2025</p>
 
         </div>
 
