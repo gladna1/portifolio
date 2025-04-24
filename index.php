@@ -7,6 +7,12 @@
 
     <link rel="stylesheet" href="tools/fontawesome/css/all.css" />
     <link rel="stylesheet" href="css/styles.css" />
+    
+    <script src="tools/jquery/jquery.js"></script>
+
+    <script>
+        
+    </script>
 
 </head>
 <body>
@@ -27,7 +33,7 @@
                 <li><a href="#"><i class="fas fa-photo-video"></i>Portifólio</a></li>
                 <li><a href="#"><i class="fas fa-user-friends"></i>Sobre</a></li>
                 <li><a href="#"><i class="fas fa-comments"></i>Contato</a></li>
-                <li><a href="area_restrita/js/"><i class="fas fa-unlock-alt"></i>Restrito</a></li>
+                <li><a href="area_restrita/login.php"><i class="fas fa-unlock-alt"></i>Restrito</a></li>
             </ul>
 
         </nav> 
